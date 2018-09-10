@@ -1915,6 +1915,6 @@
       model.trigger('error', model, resp, options);
     };
   };
-
+  document.Backbone = Backbone
   return Backbone;
-}.call(this));
+});
